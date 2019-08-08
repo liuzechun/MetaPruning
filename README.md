@@ -57,4 +57,3 @@ ResNet
 | 1x | 76.6% | 4.1G | - | - | - |
 | 0.75x | 74.8% | 2.3G | 75.4% | 2.0G | [Model-MetaP-ResN-0.75](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EUpHJYfrtaFMn46Af94vqn4BgNr9AAZ6hskoWahtA8r5Tg?e=8ovp6p) |
 | 0.5x  | 72.0% | 1.1G | 73.4% | 1.0G | [Model-MetaP-ResN-0.5 ](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EX8NhySdkw1NrUx9EYVCH0sBEJzgwM4ZS0Opv6WG0intJA?e=xMLY07) |
-
