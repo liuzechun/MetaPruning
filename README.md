@@ -21,8 +21,10 @@ MetaPruning contains two steps:
 
 3. Steps to run:
     * Step1:  training
-    * Step2:  searching
+    * Step2:  searching 
     * Step3:  evaluating
+    
+    * (After training the Pruning Net, checkpioint.pth.tar will be generated in the training folder, which will be loaded by the searching algorithm. After searching is done, the top1 encoding vector will be shown in the log. By simply copying the encoding vector to the rngs = \[ \] in evaluate.py, you can evaluate the Pruned Network corresponding to this encoding vector. 
 
 # Models
 
