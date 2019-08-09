@@ -4,12 +4,22 @@ This is the pytorch implementation of our paper "MetaPruning: Meta Learning for 
 
 <img width=60% src="https://github.com/liuzechun0216/images/blob/master/figure1.jpg"/>
 
-Traditional pruning decide prune which channel in each layer and pay human effort in setting the pruning ratio of each layer. MetaPruning automatically search for the best pruning ratio of each layer (i.e., number of channels in each layer). 
+Traditional pruning decides pruning which channel in each layer and pays human effort in setting the pruning ratio of each layer. MetaPruning can automatically search for the best pruning ratio of each layer (i.e., number of channels in each layer). 
 
 MetaPruning contains two steps: 
 1. train a meta-net (PruningNet), to provide reliable weights for all the possible combinations of channel numbers in each layer (Pruned Net structures).
 2. search for the best Pruned Net by evolutional algorithm and evaluate one best Pruned Net via training it from scratch.
 
+# Citation
+
+If you use the code in your research, please cite:
+
+	@article{liu2019metapruning,
+	  title={MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning},
+	  author={Liu, Zechun and Mu, Haoyuan and Zhang, Xiangyu and Guo, Zichao and Yang, Xin and Cheng, Tim Kwang-Ting and Sun, Jian},
+	  journal={arXiv preprint arXiv:1903.10258},
+	  year={2019}
+	}
 
 # Run
 
@@ -27,7 +37,6 @@ MetaPruning contains two steps:
     * After training the Pruning Net, checkpioint.pth.tar will be generated in the training folder, which will be loaded by the searching algorithm. After searching is done, the top1 encoding vector will be shown in the log. By simply copying the encoding vector to the rngs = \[ \] in evaluate.py, you can evaluate the Pruned Network corresponding to this encoding vector. 
 
 # Models
-
 
 MobileNet v1
 
