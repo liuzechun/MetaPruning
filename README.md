@@ -46,7 +46,7 @@ MobileNet v1
 | 1x | 70.6% | 569M | - | - | - |
 | 0.75x | 68.4% | 325M | 70.9% | 316M | [Model-MetaP-Mbv1-0.75](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EXuAHjKVTa9Gkj4ZHET0s58BU9QGI9O88iEVLopWu-usdw?e=b0VcpJ) |
 | 0.5x  | 63.7% | 149M | 66.1% | 142M | [Model-MetaP-Mbv1-0.5 ](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/ERb0bJ7ggL5Du8v4mrLeVlkBEontkyhTWdDKIoMZQwHC2w?e=5pXdDh) |
-| 0.25x | 50.6% | 41M  | 57.2% | 41M  | [Model-MetaP-Mbv1-0.25]() |
+| 0.25x | 50.6% | 41M  | 57.2% | 41M  | [Model-MetaP-Mbv1-0.25](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EQpBwbDTmCxLmpG8BCzG3xMBJsRoYOURAwG53HzkIqOzKQ?e=UrABgZ) |
 
 
 MobileNet v2
