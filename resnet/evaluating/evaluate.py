@@ -69,7 +69,7 @@ def main():
     all_parameters = model.parameters()
     weight_parameters = []
     for pname, p in model.named_parameters():
-        if 'fc' in pname or 'conv1' in pname or 'pwconv' in pname:
+        if 'fc' in pname or 'conv' in pname:
             weight_parameters.append(p)
     weight_parameters_id = list(map(id, weight_parameters))
     other_parameters = list(filter(lambda p: id(p) not in weight_parameters_id, all_parameters))
