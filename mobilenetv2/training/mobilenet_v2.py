@@ -238,5 +238,5 @@ class MobileNetV2(nn.Module):
         return x
 
 if __name__ == "__main__":
-    model = MobileNetV1()
+    model = MobileNetV2()
     print(model)
