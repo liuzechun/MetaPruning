@@ -14,10 +14,11 @@ MetaPruning contains two steps:
 
 If you use the code in your research, please cite:
 
-	@article{liu2019metapruning,
-	  title={MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning},
-	  author={Liu, Zechun and Mu, Haoyuan and Zhang, Xiangyu and Guo, Zichao and Yang, Xin and Cheng, Tim Kwang-Ting and Sun, Jian},
-	  journal={arXiv preprint arXiv:1903.10258},
+	@inproceedings{liu2019metapruning,
+	  title={Metapruning: Meta learning for automatic neural network channel pruning},
+	  author={Liu, Zechun and Mu, Haoyuan and Zhang, Xiangyu and Guo, Zichao and Yang, Xin and Cheng, Kwang-Ting and Sun, Jian},
+	  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+	  pages={3296--3305},
 	  year={2019}
 	}
 
